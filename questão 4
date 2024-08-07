@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int largura, altura, area;
+
+    // Solicitando as dimensões do retângulo ao usuário
+    printf("Digite a largura do retângulo: ");
+    scanf("%d", &largura);
+
+    printf("Digite a altura do retângulo: ");
+    scanf("%d", &altura);
+
+    // Calculando a área
+    area = largura * altura;
+
+    // Imprimindo o resultado
+    printf("A área do retângulo é: %d\n", area);
+
+    return 0;
+}
