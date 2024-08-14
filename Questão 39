@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int numero_lados;
+    float lado, perimetro;
+
+    printf("Digite o número de lados e a medida de um lado do polígono: ");
+    scanf("%d %f", &numero_lados, &lado);
+
+    perimetro = numero_lados * lado;
+
+    printf("O perímetro do polígono é %.2f\n", perimetro);
+
+    return 0;
+}
