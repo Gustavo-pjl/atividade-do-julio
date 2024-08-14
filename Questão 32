@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float populacao_inicial, populacao_final;
+    int anos;
+    float taxa_crescimento;
+
+    printf("Digite a população inicial, população final e o número de anos: ");
+    scanf("%f %f %d", &populacao_inicial, &populacao_final, &anos);
+
+    taxa_crescimento = ((populacao_final - populacao_inicial) / populacao_inicial) * 100 / anos;
+
+    printf("A taxa de crescimento é: %.2f\n", taxa_crescimento);
+
+    return 0;
+}
