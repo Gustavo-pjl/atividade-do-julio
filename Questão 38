@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float preco, desconto, preco_final;
+
+    printf("Digite o preço do produto e a percentagem de desconto: ");
+    scanf("%f %f", &preco, &desconto);
+
+    preco_final = preco * (1 - desconto / 100);
+
+    printf("O preço final após o desconto é %.2f\n", preco_final);
+
+    return 0;
+}
