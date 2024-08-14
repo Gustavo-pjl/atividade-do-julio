@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    float nota1, nota2, nota3, peso1, peso2, peso3;
+    float media_ponderada;
+
+    printf("Digite a nota1 e o peso1: ");
+    scanf("%f %f", &nota1, &peso1);
+    printf("Digite a nota2 e o peso2: ");
+    scanf("%f %f", &nota2, &peso2);
+    printf("Digite a nota3 e o peso3: ");
+    scanf("%f %f", &nota3, &peso3);
+
+    media_ponderada = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
+
+    printf("A média ponderada é: %.2f\n", media_ponderada);
+
+    return 0;
+}
