@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float metros, pes;
+
+    printf("Digite o valor em metros: ");
+    scanf("%f", &metros);
+
+    pes = metros * 3.28084;
+
+    printf("O valor em pés é: %.2f\n", pes);
+
+    return 0;
+}
+
+
+
