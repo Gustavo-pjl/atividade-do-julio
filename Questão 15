@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double horas, minutos;
+    
+    printf("Digite o valor em horas: ");
+    scanf("%lf", &horas);
+    
+    minutos = horas * 60;
+    
+    printf("O valor em minutos é: %.0lf\n", minutos);
+    
+    return 0;
+}
