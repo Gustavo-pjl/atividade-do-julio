@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float taxa_nominal, taxa_efetiva;
+    int periodos;
+
+    printf("Digite a taxa de juros nominal e o número de períodos por ano: ");
+    scanf("%f %d", &taxa_nominal, &periodos);
+
+    taxa_efetiva = pow(1 + taxa_nominal / periodos, periodos) - 1;
+
+    printf("A taxa de juros efetiva é: %.4f\n", taxa_efetiva);
+
+    return 0;
+}
