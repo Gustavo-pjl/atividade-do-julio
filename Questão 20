@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double forca, area, pressao;
+    
+    printf("Digite a força aplicada em newtons e a área em metros quadrados: ");
+    scanf("%lf %lf", &forca, &area);
+    
+    pressao = forca / area;
+    
+    printf("A pressão é: %.2lf\n", pressao);
+    
+    return 0;
+}
