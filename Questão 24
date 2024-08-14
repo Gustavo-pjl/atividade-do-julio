@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double massa, aceleracao, forca;
+    
+    printf("Digite a massa e a aceleração do objeto: ");
+    scanf("%lf %lf", &massa, &aceleracao);
+    
+    forca = massa * aceleracao;
+    
+    printf("A força é: %.2lf\n", forca);
+    
+    return 0;
+}
