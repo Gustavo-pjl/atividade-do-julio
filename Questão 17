@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double massa, volume, densidade;
+    
+    printf("Digite a massa e o volume do objeto: ");
+    scanf("%lf %lf", &massa, &volume);
+    
+    densidade = massa / volume;
+    
+    printf("A densidade é: %.2lf\n", densidade);
+    
+    return 0;
+}
