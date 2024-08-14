@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double milhas, quilometros;
+    
+    printf("Digite o valor em milhas: ");
+    scanf("%lf", &milhas);
+    
+    quilometros = milhas / 0.621371;
+    
+    printf("O valor em quilômetros é: %.2lf\n", quilometros);
+    
+    return 0;
+}
