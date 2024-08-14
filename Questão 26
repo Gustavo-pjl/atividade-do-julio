@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double trabalho, tempo, potencia;
+    
+    printf("Digite o trabalho realizado e o tempo gasto: ");
+    scanf("%lf %lf", &trabalho, &tempo);
+    
+    potencia = trabalho / tempo;
+    
+    printf("A potência é: %.2lf\n", potencia);
+    
+    return 0;
+}
