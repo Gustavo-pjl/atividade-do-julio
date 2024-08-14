@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double aresta, volume;
+    
+    printf("Digite a aresta do cubo: ");
+    scanf("%lf", &aresta);
+    
+    volume = aresta * aresta * aresta;
+    
+    printf("O volume do cubo é: %.2lf\n", volume);
+    
+    return 0;
+}
