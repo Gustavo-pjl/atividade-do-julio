@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double massa, velocidade, energiaCinetica;
+    
+    printf("Digite a massa e a velocidade do objeto: ");
+    scanf("%lf %lf", &massa, &velocidade);
+    
+    energiaCinetica = (massa * velocidade * velocidade) / 2;
+    
+    printf("A energia cinética é: %.2lf\n", energiaCinetica);
+    
+    return 0;
+}
