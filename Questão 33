@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float valor_inicial, valor_residual;
+    int vida_util;
+    float depreciacao_anual;
+
+    printf("Digite o valor inicial, valor residual e a vida útil em anos: ");
+    scanf("%f %f %d", &valor_inicial, &valor_residual, &vida_util);
+
+    depreciacao_anual = (valor_inicial - valor_residual) / vida_util;
+
+    printf("A depreciação anual é: %.2f\n", depreciacao_anual);
+
+    return 0;
+}
