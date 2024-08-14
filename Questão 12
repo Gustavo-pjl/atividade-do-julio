@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double cateto1, cateto2, hipotenusa;
+    
+    
+    printf("Digite os comprimentos dos dois catetos: ");
+    scanf("%lf %lf", &cateto1, &cateto2);
+    
+    
+    hipotenusa = sqrt(cateto1 * cateto1 + cateto2 * cateto2);
+    
+    
+    printf("A hipotenusa é: %.2lf\n", hipotenusa);
+    
+    return 0;
+}
