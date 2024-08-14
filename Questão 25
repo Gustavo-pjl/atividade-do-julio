@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double forca, distancia, trabalho;
+    
+    printf("Digite a força aplicada e a distância percorrida: ");
+    scanf("%lf %lf", &forca, &distancia);
+    
+    trabalho = forca * distancia;
+    
+    printf("O trabalho é: %.2lf\n", trabalho);
+    
+    return 0;
+}
