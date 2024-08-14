@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    double principal, taxa, tempo, jurosSimples;
+    
+    printf("Digite o valor inicial do investimento, a taxa de juros anual e o tempo em anos: ");
+    scanf("%lf %lf %lf", &principal, &taxa, &tempo);
+    
+    jurosSimples = principal * (taxa / 100) * tempo;
+    
+    printf("Os juros simples acumulados são: %.2lf\n", jurosSimples);
+    
+    return 0;
+}
